@@ -1,0 +1,41 @@
+/.idea
+/.vscode
+/vendor/srmklive/paypal/tests/Mocks/samples/sample2.pdf
+/vendor/srmklive/paypal/tests/Mocks/samples/sample.pdf
+
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5 & Lumen specific
+public/storage
+public/hot
+
+bootstrap/cache
+
+# Laravel 5 & Lumen specific with changed public path
+public_html/storage
+public_html/hot
+
+storage/*.key
+.env
+Homestead.yaml
+Homestead.json
+/.vagrant
+.phpunit.result.cache
+
+/.well-known/
+/storage/logs/
+/storage/framework/cache/
+/storage/framework/views/
+/storage/framework/logs/
+/storage/framework/sessions/
+
+\.idea\.wiseGPT\
+
+evat_realestate.zip

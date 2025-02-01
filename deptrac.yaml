@@ -1,0 +1,18 @@
+# deptrac.yaml
+parameters:
+  paths:
+    - src/
+  exclude_files:
+    - tests/
+  layers:
+    - name: Model
+      collectors:
+        - type: className
+          regex: Lendable\\Interview\\Interpolation\\Model\\.*
+    - name: Service
+      collectors:
+        - type: className
+          regex: Lendable\\Interview\\Interpolation\\Service\\.*
+  ruleset:
+    Model:
+      - Service
